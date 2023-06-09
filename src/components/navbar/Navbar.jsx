@@ -4,7 +4,7 @@ import Home from "@/app/page";
 import Portfolio from "@/app/portfolio/page";
 import Contact from "@/app/contact/page";
 import Dashboard from "@/app/dashboard/page";
-import styles from './page.module.css'
+import styles from './navbar.module.css'
 
 const links = [
   {
