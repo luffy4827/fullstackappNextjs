@@ -19,18 +19,20 @@
 
 .img {
   object-fit: contain;
-  animation: move 3s infinite ease alternate;
+  animation: 4s linear 0s infinite alternate move;
 }
 
 @keyframes move {
-    /* it means it move from -15px and it will take 3sec to initial position 0px */
-  form {
-    transform: translateY(-15px);
-  }
-  to {
-    transform: translateY(0px) scale(1.05);
-  }
-}
+    /* it means it move from -20px and it will take 3sec to initial position 0px */
+    from {
+        /* pushes the sun down past the viewport */
+        transform: translateY(-20px);
+      }
+      to {
+        /* returns the sun to its default position */
+        transform: translateY(0) scale(1.05);
+      }
+    }
 
 .form {
   flex: 1;
