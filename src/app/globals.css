@@ -26,3 +26,7 @@ a {
   flex-direction: column;
   justify-content: space-between;
 }
+
+p, h1{
+  cursor: default;
+}

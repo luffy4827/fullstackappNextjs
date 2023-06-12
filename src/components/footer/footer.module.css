@@ -6,6 +6,10 @@
   justify-content: space-between;
 }
 
+.copy{
+  cursor: default;
+}
+
 .social {
   display: flex;
   align-items: center;

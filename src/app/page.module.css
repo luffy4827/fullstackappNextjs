@@ -29,16 +29,16 @@
 @keyframes move {
     /* it means it move from -20px and it will take 3sec to initial position 0px */
     from {
-        /* pushes the sun down past the viewport */
+        /* pushes the image past the viewport */
         transform: translateY(-20px);
       }
       to {
-        /* returns the sun to its default position */
+        /* returns the simage to its default position */
         transform: translateY(0);
       }
     }
 
-.decs {
+.desc {
   font-size: 24px;
   font-weight: 300;
 }

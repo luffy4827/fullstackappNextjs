@@ -3,6 +3,7 @@ import styles from "./page.module.css";
 import Image from "next/image";
 import contact from "/public/contact.png";
 import Button from "@/components/button/Button";
+import Head from "next/head";
 
 const Contact = () => {
   return (
