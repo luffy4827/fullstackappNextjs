@@ -45,9 +45,10 @@
 .textArea {
   padding: 20px;
   background-color: transparent;
-  border: 3px solid #bbb;
+  border: none;
   outline: none;
   color: white;
-  font-size: 16px;
+  border: 3px solid #bbb;
+  font-size: 20px;
   font-weight: bold;
 }

@@ -5,6 +5,7 @@ import Portfolio from "@/app/portfolio/page";
 import Contact from "@/app/contact/page";
 import Dashboard from "@/app/dashboard/page";
 import styles from './navbar.module.css'
+import DarkMode from "../DarkModeToggle/DarkMode";
 
 const links = [
   {
@@ -44,6 +45,7 @@ const Navbar = () => {
     <div className={styles.container}>
       <Link href="/" className={styles.logo}>TechBlog</Link>
       <div className={styles.links}>
+        <DarkMode />
         {links.map((link) => (
           <Link key={link.id} href={link.url} className={styles.links}>
             {link.title}

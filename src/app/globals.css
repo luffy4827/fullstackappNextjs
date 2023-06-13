@@ -8,8 +8,20 @@ html,
 body {
   max-width: 100vw;
   overflow-x: hidden;
+}
+
+.theme {
+  transition: 2s all ease;
+}
+
+.dark {
   background-color: #111;
   color: #bbb;
+}
+
+.light {
+  background-color: #bbb;
+  color: #111;
 }
 
 a {
@@ -17,7 +29,7 @@ a {
   color: inherit;
 }
 
-.container{
+.container {
   max-width: 1366px;
   min-height: 100vh;
   margin: 0 auto;
@@ -27,6 +39,7 @@ a {
   justify-content: space-between;
 }
 
-p, h1{
+p,
+h1 {
   cursor: default;
 }
